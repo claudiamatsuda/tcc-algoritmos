@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Cadastro loucooooo</h2>
+
+    Seu nome: <span id="nome" style="color: blue"></span> <br>
+    Seu email: <span id="email"></span> <br>
+    Sua idade: <span id="idade" style="color: purple"></span> <br>
+    Sua motivação: <span id="motive-se"></span> <br>
+
+</body>
+</html>
+<script>
+    var seu_nome = prompt('Qual seu nome?');
+    var seu_email = prompt('Qual é seu email?');
+    var sua_idade = prompt('Qual é a sua idade?');
+    var motive_se = prompt('Motive-se');
+    
+
+    // alterando o conteúdo de algum elemento html
+
+    // ex: alterar o conteúdo de alguma tag
+    // que tenha o id nome = 'nome'
+    document.getElementById("nome").innerHTML = seu_nome;
+    document.getElementById("email").innerHTML = seu_email;
+    document.getElementById("idade").innerHTML = sua_idade;
+    document.getElementById("motive-se").innerHTML = motive_se;
+
+
+
+
+
+
+</script>

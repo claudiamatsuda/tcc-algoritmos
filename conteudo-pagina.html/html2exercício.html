@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <li><b>Corinthians:</b> <span id="Corinthians" style="color: blue"></span> </li>
+    <li><b>Palmeiras:</b> <span id="Palmeiras"></span> </li>
+    <li><b>Santos:</b> <span id="Santos" style="color: purple"></span> </li>
+    <li><b>Bota fogo:</b> <span id="Bota fogo"></span> </li>
+
+    
+
+</body>
+</html>
+
+<script>
+    var Corinthians = prompt('Quantos jogos ganhou?');
+    var Palmeiras = prompt('Seu time é fraco?');
+    var Santos = prompt('O nome do seu time é igual da praia?');
+    var Bota_fogo = prompt('É só o nome ou é pra botar fogo?');
+    
+
+    // alterando o conteúdo de algum elemento html
+
+    // ex: alterar o conteúdo de alguma tag
+    // que tenha o id nome = 'nome'
+    document.getElementById("Corinthians").innerHTML = Corinthians;
+    document.getElementById("Palmeiras").innerHTML = Palmeiras;
+    document.getElementById("Santos").innerHTML = Santos;
+    document.getElementById("Bota fogo").innerHTML = Bota_fogo;
+
+</script>
